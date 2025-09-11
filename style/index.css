@@ -1,4 +1,5 @@
-body{
+/* section 1 */
+.body{
     background-color: #F2F2F2;
     width: 100%;
     height: 100vh;
@@ -6,16 +7,41 @@ body{
     justify-content: center;
     align-items: center;
 }
+.header-flex-grandparent{
+    width: 1400px;
+    height: 160px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logotyp{
+
+}
+
+.ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav{
+    display: flex;
+    gap: 40px;
+    margin-left: 200px;
+    color: black;
+}
 
 .Product{
-    margin-top: -60px;
+    margin-top: 24px;
     margin-left: 273px;
     display: flex;
     gap: 40px;
     font-family: "poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: -0.02em;
     color: #2F281E; 
@@ -23,14 +49,14 @@ body{
 }
 
 .Customers{
-    margin-top: -40px;
+    margin-top: 24px;
     margin-left: 355px;
     display: flex;
     gap: 40px;
-    ffont-family: "poppins", sans-serif;
+    font-family: "poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: -0.02em;
     color: #2F281E; 
@@ -39,12 +65,12 @@ body{
 .Pricing{
     display: flex;
     gap: 40px;
-    margin-top: -40px;
+    margin-top: 24px;
     margin-left: 440px;
     ffont-family: "poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: -0.02em;
     color: #2F281E; 
@@ -53,21 +79,22 @@ body{
 .Recourses{
     display: flex;
     gap: 40px;
-    margin-top: -40px;
+    margin-top: 24px;
     margin-left: 511px;
     font-family: "poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: -0.02em;
     color: #2F281E; 
 }
 
-.Sign-In{
+
+.sign-in-button{
     width: 102px;
     height: 46px;
-    margin-top: -40px;
+    margin-top: 35px;
     margin-left: 1321px;
     background-color: #BCD0E5;
     font-family: "poppins", sans-serif;
@@ -79,34 +106,219 @@ body{
     color: #173A56; 
 }
 
-.Sign-Up{
+.sign-up-button{
     width: 110px;
     height: 46px;
-    margin-top: 100px;
-    margin-left: 1443px;
+    
+    
     background-color: #FF9900;
     border-radius: 6px;
     font-family: "poppins", sans-serif;
+    margin-top: 35px;
+    margin-right: 45px;
+    margin-bottom: 15px;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 32px;
+    line-height: 24px;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     border: none;
+    cursor: pointer;
+
+
     }
 
-.paragraph{
-    text-align: left;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    
-    color: #2F281E;
-    
+/* section 2 */
+.section-2{
+    width: 1126px;
+    height: 496px;
+    margin-bottom: 55px;
+    display: block;
 }
-.h1{
+
+
+.section-2-part-1{
+    width: 518px;
+    height: 331px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.section-2-part-1-heading-1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 44px;
+    line-height: 54px;
+    text-align: left;
+    letter-spacing: -0.02em;
+    color: #2F281E;
+    margin-left: 145px;
+    margin-bottom: 15px;
+    width: 518px;
+    height: 108px;
+}
+
+.section-2-part-1-text{
     font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+    letter-spacing: -0.02em;
+    color: #2F281E;
+    margin-left: 145px;
+    margin-top: 15px;
+    margin-bottom: 22px;
+    width: 540px;
+}
+
+.section-2-part-1-btn{
+    width: 175px;
+    height: 53px;
+    background-color: #FF9900;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin-left: 145px;
+    margin-top: 22px;
+}
+.section-2-part-2-img{
+    width: 605px;
+    height: 496px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-right:129px;
+}
+
+
+/* section 3 */
+
+.section-3-part-1{
+    width: 1440px;
+    height: 400px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.section-3-part-1-header-2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.02em;
     color: #2F281E;
 }
+.section-3-part-2{
+    width: 1440px;
+    height: 300px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.section-3-part-2-div-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* img*/
+
+.section-3-part-2-header-3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #2F281E;
+    margin-bottom: 10px;
+}
+
+.section-3-part-2-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #2F281E;
+    width: 200px;
+}
+
+.section-3-part-2-div-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* img*/
+
+.section-3-part-2-div-2-header-3{
+}
+
+.section-3-part-2-div-2-text{
+
+}
+.section-3-part-2-div-3{
+
+}
+
+/* img*/
+
+.section-3-part-2-div-3-header-3{
+
+}
+
+.section-3-part-2-div-3-text{
+
+}
+.section-3-part-2-div-4{
+
+}
+/* img*/
+.section-3-part-2-div-4-header-3{
+
+}
+.section-3-part-2-div-4-text{
+
+}
+
+.section-3-part-3
+
+.sign-up-now{
+
+}
+
+
+/* section 4 */
+
+
+/* section 5 */
+
+
+/* section 6 */
+
+
+/* section 7 */
