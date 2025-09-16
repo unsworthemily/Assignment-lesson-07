@@ -506,7 +506,6 @@ margin-top: 22px;
     width: 1126px;
     height: 521px;
     display: flex;
-    justify-content: space-between;
     margin-top: 130px;
     }
                
@@ -524,6 +523,9 @@ margin-top: 22px;
 .section-5-part-2{
     width: 486px;
     height: 427px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
     margin-top: 33px;
     margin-left: 50px;
     margin-right: 135px;
@@ -595,26 +597,36 @@ margin-top: 22px;
     width: 100%;}
 
 .section-5-part-3{
-
+    display: flex;
+    flex-direction: column;
 }
 
 .tick+text-1{
-
+height: 346px;
+width: x;
+    display: flex;
+flex-direction: row;
     
     
 }
 
 .tick+text-2{
     display: flex;
-align-self: center;}
+align-self: center;
+height: 346px;
+flex-direction: row;}
 
 .tick+text-3{
 display: flex;
-align-self: center;}
+align-self: center;
+flex-direction: row;
+height: 346px;
+}
 
 .trekant-1{
     width: 30px;
     height: 30px;
+    
     
 }
 
@@ -635,11 +647,10 @@ align-self: center;}
     width: 1110px;
     height: 609px;
     display: flex;
-    justify-content:start;
-    align-content: space-between;
+    justify-content: space-between;
+    flex-direction: column;
     margin-top: 52px;
     margin-left: 147px;
-    margin-right: 143px;
     margin-bottom: 73px;
     font-family: 'Poppins', sans-serif;}
                 
@@ -795,12 +806,12 @@ font-family: 'Poppins', sans-serif;
 .section-6-part-2{
     width: 542px;
     height: 609px;
-    display: flex;
     margin-top: 52px;
     margin-left: 41px;
     margin-bottom: 73px;
     font-family: 'Poppins', sans-serif;}
 
 .man-anslagstavla{
-
+width: 542px;
+height: 609px;
 }
